@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Generator</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        input {
+            padding: 8px;
+            width: 200px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        pre {
+            text-align: left;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Table Generator</h2>
+
+        <input type="number" id="num" placeholder="Enter a number">
+
+        <br>
+
+        <button onclick="generateTable()">Generate Table</button>
+
+        <pre id="result"></pre>
+    </div>
+
+    <script>
+        function generateTable() {
+            let number = Number(document.getElementById("num").value);
+            let output = "";
+
+            for (let i = 1; i <= 10; i++) {
+                output += number + " x " + i + " = " + (number * i) + "\n";
+            }
+
+            document.getElementById("result").innerText = output;
+        }
+    </script>
+
+</body>
+</html>
