@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-container {
+  max-width: 450px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #4a4aef;
+  color: white;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.dark-mode {
+  background: #121212;
+}
+
+.dark-mode .card {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dark-mode .list-group-item {
+  background: #2a2a2a;
+  color: white;
+}

@@ -1,0 +1,18 @@
+# 📝 To-Do App – JavaScript Mini Project
+
+## 📌 Features
+- Add, Edit, Delete tasks
+- Mark tasks as completed
+- Task counter (Total / Completed)
+- Input validation
+- Filter: All / Completed / Pending
+- Light & Dark Mode
+
+## 🛠️ Technologies Used
+- HTML
+- CSS + Bootstrap
+- JavaScript
+- DOM Manipulation
+- Arrays & Objects
+
+## 📂 Folder Structure
