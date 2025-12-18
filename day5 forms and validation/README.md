@@ -1,27 +1,17 @@
-# Login Form Validation (DOM)
+## 🔐 Login Form Validation (Bootstrap)
 
-## Description
-This project demonstrates basic login form validation using JavaScript DOM manipulation.
-It checks for empty input fields and displays simple error messages.
+### 📌 Description
+This project demonstrates a login form with client-side validation.
+The UI is improved using **Bootstrap 5** for responsiveness and modern design.
 
-## Features
-- Empty field validation
-- Error messages displayed below inputs
-- Prevents form submission if inputs are invalid
+### 🚀 Features
+- Bootstrap CDN integration
+- Responsive layout using container & grid
+- Bootstrap cards, forms, and buttons
+- JavaScript form validation
 
-## What is DOM?
-DOM (Document Object Model) allows JavaScript to interact with HTML elements dynamically.
-
-## DOM Usage in This Project
-- `document.getElementById()` selects form and inputs
-- `addEventListener()` handles form submission
-- `textContent` is used to show error messages
-- `preventDefault()` stops page reload on invalid form submission
-
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (DOM)
-
-## Folder Name
-`day-5-form-validation`
+### 🛠 Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
